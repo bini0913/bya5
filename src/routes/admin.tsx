@@ -15,12 +15,12 @@ export const Route = createFileRoute("/admin")({
   component: AdminLayout,
 });
 
-const items = [
+const items: Array<{ to: string; label: string; icon: typeof LayoutDashboard; exact?: boolean }> = [
   { to: "/admin", label: "Dashboard", icon: LayoutDashboard, exact: true },
   { to: "/admin/admissions", label: "Admissions", icon: Inbox },
   { to: "/admin/news", label: "News", icon: Newspaper },
   { to: "/admin/gallery", label: "Gallery", icon: Images },
-] as const;
+];
 
 function AdminLayout() {
   const { user, loading, isStaff, isAdmin, roles } = useAuth();
