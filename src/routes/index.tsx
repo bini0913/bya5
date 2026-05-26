@@ -13,7 +13,11 @@ import academicsImg from "@/assets/academics.jpg";
 import studentLifeImg from "@/assets/student-life.jpg";
 import earlyYearsImg from "@/assets/early-years.jpg";
 import graduationImg from "@/assets/graduation.jpg";
-import managerPhoto from "@/assets/general-manager.jpeg";
+import graduationClass from "@/assets/graduation-class.jpg";
+import studentsGroup from "@/assets/students-group.jpg";
+import studentsYoung from "@/assets/students-young.jpg";
+import morningAssembly from "@/assets/morning-assembly.jpg";
+import examResults from "@/assets/exam-results.jpg";
 
 export const Route = createFileRoute("/")({
   head: () => ({
