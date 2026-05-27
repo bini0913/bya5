@@ -5,6 +5,7 @@ import {
   ArrowRight, Play, GraduationCap, Lightbulb, Globe2,
   Users, BookOpen, Award, Building2, TrendingUp,
   Music, Trophy, Sparkles, Heart, Calendar,
+  ShieldCheck, HandHeart, Compass, Quote,
 } from "lucide-react";
 import { MarketingShell } from "@/components/marketing-shell";
 import heroBg from "@/assets/hero-campus.jpg";
