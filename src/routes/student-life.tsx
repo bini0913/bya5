@@ -19,11 +19,12 @@ const activities = [
   { icon: Cpu, title: "STEM Clubs", desc: "Robotics, coding, and science olympiad teams." },
   { icon: Sparkles, title: "Leadership", desc: "Student council, debate, Model UN, and peer mentoring." },
   { icon: Heart, title: "Community Service", desc: "Partnerships with local organizations and outreach projects." },
-  { icon: Users, title: "House System", desc: "Friendly competition fostering belonging and school spirit." },
-];
+      <PageHero
+        eyebrowKey="studentLife.heroEyebrow"
+        titleKey="studentLife.heroTitle"
+        descriptionKey="studentLife.heroDesc"
+      />
 
-function StudentLifePage() {
-  return (
     <MarketingShell>
       <PageHero
         eyebrow="Student Life"
