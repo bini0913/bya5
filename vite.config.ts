@@ -17,7 +17,7 @@ const tanstackStartOptions = {
   },
 };
 
-const isVercelBuild = process.env.VERCEL === "1";
+const isVercelBuild = process.env.VERCEL === "1" || process.env.NITRO_PRESET === "vercel";
 
 export default isVercelBuild
   ? defineViteConfig(({ mode }) => {
